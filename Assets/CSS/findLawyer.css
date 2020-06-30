@@ -1,0 +1,370 @@
+.normal-text {
+    font-family: siteFont;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bold-text {
+    font-family: siteBoldFont;
+}
+
+.heavy-text {
+    font-family: siteHeavyFont;
+}
+
+.blue-text {
+    color: #283c61;
+}
+
+.grey-text {
+    color: #ebebeb;
+}
+
+.main-content {
+    margin-top: 100px;
+    min-height: 100px;
+    padding-bottom: 30px;
+    background: #e4e4e4;
+}
+
+.content-head {
+    font-family: siteHeavyFont;
+    background: #091428;
+    color: #ebebeb;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.content-head-link {
+    transition: 0.5s;
+    color: white;
+}
+
+.content-head .content-head-link:hover {
+    color: #c8ac48;
+    text-decoration: none;
+}
+
+
+
+.main-info {
+    background: white;
+    border-radius: 3px;
+    border-top: 3px solid #283c61;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.content-panel1-button {
+    margin-top: 30px;
+    background: #283c61;
+    padding: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-panel1-button:hover {
+    background: #1d3051;
+}
+
+.panel1-head-data1 {
+    width: 80%;
+    float: left;
+}
+
+.panel1-head-data1-icon {
+    text-align: right;
+    width: 20%;
+}
+
+.content-panel1 {
+    display: none;
+    background: white;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+}
+
+.law-filters {
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+    border-top: 3px solid #283c61;
+    background: white;
+}
+
+.filter-form {
+    padding-bottom: 15px;
+    padding-left: 4px;
+}
+
+.filter-form p {
+    margin-bottom: 0;
+    margin-bottom: 5px;
+}
+
+.filter-form-container {
+    margin-top: 20px;
+}
+
+.filter-seperator {
+    border-top: 1px solid #ebebeb;
+}
+
+.filter-form-feild {
+    width: 100%;
+}
+
+
+.total-lawyers {
+    border-radius: 4px;
+    background: #283c61;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 8px;
+}
+
+.lawyer-profile {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    padding-bottom: 20px;
+}
+
+.lawyer-photo {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+}
+
+
+.lawyer-profile p {
+    margin-bottom: 5px;
+}
+
+.lawyer-basic-info {
+    padding-top: 15px;
+}
+
+.lawyer-rating {
+    padding-top: 20px;
+}
+
+.rating-label {
+    background: #5cb85c;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.rating-text {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.search-tags {
+    margin-top: 10px;
+}
+
+.search-tag {
+    border: 1px solid #283c61;
+    background: white;
+    color: #283c61;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+}
+
+.search-tag-active {
+    background: #283c61;
+    color: white;
+}
+
+.answers {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.answers-container a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+.answers-container a:hover{
+    color: #283c61;
+    text-decoration: none;
+}
+
+.answers-container {
+    margin-top: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+}
+
+.see-all-ans {
+    text-align: right;
+    transition: .3s;
+}
+
+.see-all-ans:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+.news {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.news-container a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+.news-container a:hover{
+    color: #283c61;
+    text-decoration: none;
+}
+
+.news-container {
+    margin-top: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+}
+
+.see-all-news {
+    text-align: right;
+    transition: .3s;
+}
+
+.see-all-news:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+
+.law-guides {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.law-guides-container a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+.law-guides-container a:hover{
+    color: #283c61;
+    text-decoration: none;
+}
+
+.law-guides-container {
+    margin-top: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+}
+
+.see-all-guides {
+    text-align: right;
+    transition: .3s;
+}
+
+.see-all-guides:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+
+
+.property-forms {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.property-forms-container a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+.property-forms-container a:hover{
+    color: #283c61;
+    text-decoration: none;
+}
+
+.property-forms-container {
+    margin-top: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+}
+
+.see-all-forms {
+    text-align: right;
+    transition: .3s;
+}
+
+.see-all-forms:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}

@@ -1,0 +1,415 @@
+/*------------------------------------------*/
+
+.content1 {
+    background: white;
+    margin-top: 98px;
+    height: 600px;
+}
+
+.inner-content1 {
+    background-image: url("../Images/hero.jpg");
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+
+.hero-image-data {
+    padding-top: 100px;
+}
+
+.hero-image-btn {
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: -20px;
+}
+
+@media (max-width: 1199px) {
+    .hero-image-btn {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+.hero-image-btn a {
+    color: inherit;
+}
+
+.hero-image-btn a:hover {
+    text-decoration: none;
+}
+
+
+.btn-question {
+    font-family: siteFont;
+    font-size: 20px;
+    background: #c8ac48;
+    border : 2px solid #c8ac48;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-question:hover{
+    background: #997d3c;
+    border : 2px solid #997d3c;
+}
+
+.btn-talk {
+    font-family: siteFont;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    border : 1px solid #f7f7f7;
+    color: #f7f7f7;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-talk:hover{
+    background: #f7f7f7;
+    color: #1d3051;
+}
+
+.btn-quote {
+    font-family: siteFont;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.65);
+    border : 1px solid #f7f7f7;
+    color: #f7f7f7;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-quote:hover{
+    background: #f7f7f7;
+    color: #1d3051;
+}
+
+.options {
+    margin-top: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.options img {
+    height: 60px;
+}
+
+.option1 {
+    background: #304771;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.option1:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+.option2 {
+    background: #283c61;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.option2:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+.option3 {
+    background: #1d3051;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.option3:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+.option4 {
+    background: #091428;
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.option4:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}
+
+.content2 {
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 35%, #e4e4e4 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f6f6f6 35%, #e4e4e4 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #f6f6f6 35%, #e4e4e4 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #f6f6f6 35%, #e4e4e4 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #f6f6f6 35%, #e4e4e4 100%);
+    padding-top: 80px;
+    font-family: siteBoldFont;
+}
+
+.content2-heading {
+    color: #1d3051;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cities-lawyer {
+    color: #1d3051;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cities-lawyer:hover {
+    color: #c8ac48;
+}
+
+.content3 {
+    background: #e4e4e4;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.content3-heading {
+    font-family: siteBoldFont;
+    color: #283c61;
+    margin-bottom: 40px;
+}
+
+.lawyers-profile-container {
+    margin-bottom: 20px;
+}
+
+.lawyer-profile {
+    background: white;
+    border-top: 4px solid #283c61;
+    border-radius: 4px;
+    height: 190px;
+}
+
+.lawyer-photo {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+}
+
+
+.lawyer-info {
+    padding-top: 20px;
+}
+
+.lawyer-name {
+    font-family: siteBoldFont;
+    color: #283c61;
+    font-size: 18px;
+}
+
+.lawyer-city {
+    font-weight: bold;
+}
+
+.lawyer-experience {
+    font-weight: bold;
+}
+
+.lawyer-rating {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rating-label {
+    font-weight: bold;
+    text-align: center;
+    word-wrap: normal;
+    background: #5cb85c;
+    color: white;
+    border-radius: 4px;
+}
+
+.rating-data {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.lawyer-rating .btn {
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.lawyer-rating .btn-primary {
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+}
+
+.search-tags {
+    margin-top: 10px;
+}
+
+.search-tag {
+    border: 1px solid #283c61;
+    background: white;
+    color: #283c61;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+}
+
+.search-tag-active {
+    background: #283c61;
+    color: white;
+}
+
+
+.legal-answer {
+    background: white;
+    border-top: 4px solid #283c61;
+    border-radius: 4px;
+    height: 190px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+.answer-container {
+    padding-top: 10px;
+    height:95px;
+}
+
+.answer {
+    font-family: siteBoldFont;
+    color: #283c61;
+    font-size: 17px;
+}
+
+.legal-answer .btn {
+    cursor: pointer;
+}
+
+.question-icon {
+    border: 1px solid #283c61;
+    border-radius: 6px;
+    font-size: 35px;
+    color: #283c61;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .btn-question {
+        margin-top: 10px;
+    }
+
+    .btn-talk {
+        margin-top: 10px;
+    }
+
+    .btn-quote {
+        margin-top: 10px;
+    }
+
+    .options {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 427px) {
+    .options {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 383px) {
+    .options {
+        margin-top: 9px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .lawyer-profile {
+        background: white;
+        border-top: 4px solid #283c61;
+        border-radius: 4px;
+        height: 220px;
+    }
+
+    .lawyer-rating .btn-primary {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 991px) {
+    .lawyer-profile {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .legal-answer {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .answer-container {
+        height:auto;
+    }
+
+}
+
+.seperator {
+    border: 1px solid #1d3051;
+}
+
+
+
+@media (max-width: 767px) {
+    .hero-image-data {
+        padding-top: 20px;
+    }
+
+    .content1 {
+        height: 830px;
+    }
+}
+@media (max-width: 344px) {
+    .hero-image-data h1 {
+        font-size: 25px;
+    }
+    .hero-image-data h5 {
+        font-size: 15px;
+    }
+    .btn-question {
+        font-size: 20px;
+    }
+    .btn-talk {
+        font-size: 20px;
+    }
+
+    .content1 {
+        height: 781px;
+    }
+}

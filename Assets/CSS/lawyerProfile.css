@@ -1,0 +1,194 @@
+.normal-text {
+    font-family: siteFont;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bold-text {
+    font-family: siteBoldFont;
+}
+
+.heavy-text {
+    font-family: siteHeavyFont;
+}
+
+.blue-text {
+    color: #283c61;
+}
+
+.grey-text {
+    color: #ebebeb;
+}
+
+.main-content {
+    margin-top: 100px;
+    min-height: 100px;
+    padding-bottom: 30px;
+    background: #e4e4e4;
+}
+
+.lawyer-info {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.lawyer-basic-info {
+    padding-top: 20px;
+}
+
+.lawyer-photo {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 7px -1px rgba(0,0,0,0.75);
+}
+
+.search-tags {
+    margin-top: 10px;
+}
+
+.search-tag {
+    border: 1px solid #283c61;
+    background: white;
+    color: #283c61;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+}
+
+.search-tag-active {
+    background: #283c61;
+    color: white;
+}
+
+.rating-container {
+    padding-top: 20px;
+}
+
+.rating-label {
+    background: #5cb85c;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.rating-text {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.lawyer-detail {
+    background: white;
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.consultations-type {
+    border-radius: 3px;
+    border-top: 3px solid #283c61;
+    background: white;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.colsult-operation-container {
+    padding: 0px;
+}
+
+.colsult-operation-container .row {
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.consult-fee {
+    font-family: siteBoldFont;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1199px) {
+    .consult-fee {
+        margin-top: 0px;
+    }
+
+    .btn-consult {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .consult-fee {
+        margin-top: 0px;
+    }
+
+    .btn-consult {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+
+.news {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+.news-container a {
+    color: inherit;
+    transition: 0.3s;
+}
+
+.news-container a:hover{
+    color: #283c61;
+    text-decoration: none;
+}
+
+.news-container {
+    margin-top: 30px;
+    padding-left: 4px;
+    padding-right: 5px;
+    margin-bottom: 40px;
+}
+
+.see-all-news {
+    text-align: right;
+    transition: .3s;
+}
+
+.see-all-news:hover {
+    text-decoration: none;
+    color: #c8ac48;
+}

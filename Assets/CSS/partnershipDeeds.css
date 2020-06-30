@@ -1,0 +1,94 @@
+.normal-text {
+    font-family: siteFont;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bold-text {
+    font-family: siteBoldFont;
+}
+
+.heavy-text {
+    font-family: siteHeavyFont;
+}
+
+.blue-text {
+    color: #283c61;
+}
+
+.grey-text {
+    color: #ebebeb;
+}
+
+.main-content {
+    margin-top: 100px;
+    min-height: 100px;
+    padding-bottom: 30px;
+    background: #e4e4e4;
+}
+
+.pd-form-container {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.pd-basic-info-form-container {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.partner-info-container {
+    border-top: 2px solid #283c61;
+    border-radius: 2px;
+    background: #eceeef;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.pd-form-heading {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pd-feild-container1 {
+    margin-bottom: 0px;
+}
+
+.pd-feild-container {
+    margin-bottom: 20px;
+}
+
+.pd-form-label {
+    margin-bottom: 10px;
+}
+
+.hidden-feilds {
+    margin-top: 10px;
+    display: none;
+}
+
+.hidden-span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.partner-info-container {
+    border-top: 2px solid #283c61;
+    border-radius: 2px;
+    background: #eceeef;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}

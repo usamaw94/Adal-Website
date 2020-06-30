@@ -1,0 +1,135 @@
+.normal-text {
+    font-family: siteFont;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bold-text {
+    font-family: siteBoldFont;
+}
+
+.heavy-text {
+    font-family: siteHeavyFont;
+}
+
+.blue-text {
+    color: #283c61;
+}
+
+.grey-text {
+    color: #ebebeb;
+}
+
+.main-content {
+    margin-top: 100px;
+    min-height: 100px;
+    padding-bottom: 30px;
+    background: #e4e4e4;
+}
+
+.pd-form-container {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.pd-basic-info-form-container {
+    border-top: 3px solid #283c61;
+    border-radius: 3px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.pd-form-heading {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pd-feild-container {
+    margin-bottom: 20px;
+}
+
+.pd-form-label {
+    margin-bottom: 10px;
+}
+
+.hidden-feilds {
+    margin-top: 10px;
+    display: none;
+}
+
+
+
+.individual-lessor {
+    display: none;
+    border-radius: 2px;
+    border-top: 2px solid #283c61;
+    background: #eceeef;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.spacing {
+    margin-bottom: 10px;
+}
+
+.hidden-content {
+    margin-top: 10px;
+}
+
+.hidden-content-feild {
+    margin-top: 10px;
+    display: none;
+}
+
+.hidden-group {
+    margin-top: 10px;
+}
+
+.organisation-lessor {
+    display: none;
+    border-radius: 2px;
+    border-top: 2px solid #283c61;
+    background: #eceeef;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.individual-lessee {
+    display: none;
+    border-radius: 2px;
+    border-top: 2px solid #283c61;
+    background: #eceeef;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.organisation-lessee {
+    display: none;
+    border-radius: 2px;
+    border-top: 2px solid #283c61;
+    background: #eceeef;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+.hidden-span {
+    margin-top: 10px;
+}
+
