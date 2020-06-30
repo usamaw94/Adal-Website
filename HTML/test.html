@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Show Hide Using Select Box</title>
+    <style type="text/css">
+        .box{
+            padding: 20px;
+            display: none;
+            margin-top: 20px;
+            border: 1px solid #000;
+        }
+        .red{ background: #ff0000; }
+        .green{ background: #00ff00; }
+        .blue{ background: #0000ff; }
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#choose-color").change(function(){
+                $(this).find("option:selected").each(function(){
+                    if($(this).attr("value")=="more than 5"){
+                        $("#more-than-5-number").show();
+                    }
+                    else if($(this).attr("value")!="more than 5"){
+                        $("#more-than-5-number").hide();
+                    }
+                    else{
+                        $("#more-than-5-number").hide();
+                    }
+                });
+            }).change();
+        });
+    </script>
+</head>
+<body>
+<div>
+    <select id="choose-color">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option selected value="more than 5">more than 5</option>
+    </select>
+</div>
+<input id="more-than-5-number" type="number" placeholder="Please specify number">
+<div class="red box">You have selected <strong>red option</strong> so i am here</div>
+<div class="green box">You have selected <strong>green option</strong> so i am here</div>
+<div class="blue box">You have selected <strong>blue option</strong> so i am here</div>
+</body>
+</html>
+</body>
+</html>

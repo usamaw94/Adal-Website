@@ -1,0 +1,53 @@
+<html>
+<head>
+
+    <style>
+        .form-input {
+            width: 100%;
+        }
+        .form-input2 {
+            border: 2px solid red;
+        }
+
+        .form-input3 {
+            background:yellow;
+        }
+        .hidden-form-input {
+            display: none;
+        }
+        .label1 {
+            color: red;
+        }
+
+        .no-of-members {
+            display: none;
+        }
+        .form-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .partner-form-container {
+            border: 2px solid red;
+            background: grey;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+</head>
+<body>
+<select id="member">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="more than 5">More than 5</option>
+</select>
+<br>
+<input type="number" class="no-of-members" onchange="addFieldsMoreThan5()" id="noOfMembers" min="6" placeholder="Please Specify Number">
+<div id="container" class="form-container"/>
+<script src="../Assets/JS/feildGenerator.js"></script>
+</body>
+</html>
